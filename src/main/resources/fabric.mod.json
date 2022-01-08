@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "ezconvertorz",
+  "version": "${version}",
+  "name": "EzConvertorz",
+  "description": "No more pain dealing with EU and E!",
+  "authors": [
+    "Peakstep"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT License",
+  "icon": "assets/ezconvertorz/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.intelligentcreations.ezconvertorz.EzConvertorz"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17",
+    "modern_industrialization": "*"
+  }
+}
